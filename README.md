@@ -2,6 +2,7 @@
 ## 4th Year Software Engineering Students 
 ## Addis Ababa University @2024
 ### Instructor: Wendimagegn Desta
+### Course: Distributed System
 
 | Name             | Roll Number  | Section |
 | ---------------- | ------------ | ------- |
