@@ -16,7 +16,7 @@
 ### How to Use it?
 ## Install
 
-Go >= 1.13 is required
+Go is required
 
 1. Library: 
      * `go get -d github.com/Hiwot-Beyene/addis-torrent/torrent`
@@ -34,7 +34,20 @@ To download a torrent from a file:
     $ addis-download -torrentfile <file>
     The downloaded files will be available under the current working directory.
 
-To download a torrent from a magnet:
+##  What it does 
 
-    <magnet> is a magnet URI
-    $ addis-download -magnet <magnet>
+File sharing using the BitTorrent protocol.
+
+Torrent management (creation, starting, pausing, and stopping).
+
+Progress tracking for each torrent (completion percentage, downloaded/uploaded data).
+
+Peer connection management (establishing and managing connections with other peers).
+
+Piece selection algorithms for efficient downloading.
+
+Communication with the tracker server for peer coordination.
+
+Support for seeding (sharing files without further downloading).
+
+Concurrency
